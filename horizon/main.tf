@@ -29,7 +29,6 @@ module "asg" {
   }
 }
 
-
 # Security group
 
 resource "aws_security_group" "sg" {
@@ -58,4 +57,3 @@ resource "aws_security_group" "sg" {
     workspace  = terraform.workspace
   }
 }
-
