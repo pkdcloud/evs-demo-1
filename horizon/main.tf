@@ -2,8 +2,7 @@
 
 module "asg" {
   source = "../_modules/asg"
-
-  name = local.workspace["asg_name"]
+  name   = local.workspace["asg_name"]
 
   # Launch configuration
   lc_name           = local.workspace["lc_name"]

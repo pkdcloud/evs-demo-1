@@ -21,4 +21,3 @@ TERRAFORM_ROOT_MODULE=horizon TERRAFORM_WORKSPACE=mgmt-apse2-horizon-presentatio
 TERRAFORM_ROOT_MODULE=horizon TERRAFORM_WORKSPACE=mgmt-apse2-horizon-storage make destroy
 TERRAFORM_ROOT_MODULE=horizon TERRAFORM_WORKSPACE=mgmt-apse2-horizon-reporting make destroy
 ```
-
