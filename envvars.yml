@@ -1,0 +1,46 @@
+envvars:
+  - name: AWS_ACCESS_KEY_ID
+    desc: AWS Authentication Access Key ID
+    optional: true
+    tags:
+      - aws
+
+  - name: AWS_SECRET_ACCESS_KEY
+    desc: AWS Authentication Secret Access Key
+    optional: true
+    tags:
+      - aws
+
+  - name: AWS_SESSION_TOKEN
+    desc: AWS Authentication Session Token
+    optional: true
+    tags:
+      - aws
+
+  - name: AWS_PROFILE
+    desc: AWS profile to use for assuming role
+    optional: true
+    tags:
+      - aws
+
+  - name: AWS_DEFAULT_REGION
+    desc: AWS Region
+    optional: true
+    tags:
+      - aws
+
+  - name: TERRAFORM_WORKSPACE
+    desc: Terraform Workspace that will be deployed to
+    tags:
+      - terraform
+
+  - name: TERRAFORM_ROOT_MODULE
+    desc: Terraform Root Module (Directory) to deploy
+    tags:
+      - terraform
+
+tags:
+  - name: aws
+    desc: AWS authentication envvars
+  - name: terraform
+    desc: Required to run Terraform commands
